@@ -60,9 +60,6 @@
                         <a class="page-scroll" href="#services">Experiences</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -125,76 +122,24 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Favorite Classes</h3>
+                        <i href="#portfolioModal2" class="hoverexpand fa fa-4x fa-briefcase wow bounceIn text-primary portfolio-link" data-toggle="modal"></i>
+                        <h3>Notable Classes</h3>
                         <p class="text-muted">How I started to love coding.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <i href="#portfolioModal3" class="hoverexpand fa fa-4x fa-briefcase wow bounceIn text-primary portfolio-link" data-toggle="modal"></i>
                         <h3>Technical Skills</h3>
                         <p class="text-muted">Not really. I probably don't know as much as I tell myself I do.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <i href="#portfolioModal4" class="hoverexpand fa fa-4x fa-briefcase wow bounceIn text-primary portfolio-link" data-toggle="modal"></i>
                         <h3>What I love to do</h3>
                         <p class="text-muted">Not really suppose to be in the experience section but... I made the design choice.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box" data-toggle="modal">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Self Project
-                                </div>
-                                <div class="project-name">
-                                    Guild Wars 2 - Data mining
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    School Project
-                                </div>
-                                <div class="project-name">
-                                    Javascript Tank WArs
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Cal Fire
-                                </div>
-                                <div class="project-name">
-                                    Voroni Mapping
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
@@ -223,6 +168,98 @@
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
+    <!-- Portfolio Modal 1 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" align="center">
+                            <!-- Project Details Go Here -->
+                            <h2 class="section-heading">Previous Employment</h2>
+                            <hr class="primary">
+                            <!--p class="item-intro text-muted">Previously, I've worked at Haberdashion, a small startup that allowed me to realized that startups isn't really for me. The lack of structure and organization drove me crazy. I left Haber with Web Developement knowledges that allowed me to work with my next employer, Cal Fire! At Cal fire, the most important thing I learned was how to talk to people. Talking to non-technical people and talking their concepts and developing challenged me to grow faster than ever.</p-->
+                            <div id="job">
+								<p class="alignleft"> <b>Full Stack Developer</b> - Cal Fire, Los Osos.</p>
+								<p class="alignright">March 2015- Oct 2015.</p>
+								<p class="alignleft bulletpoints">
+								<span class="fa fa-circle"></span> 
+								Communicated and developed with non-technical co-workers</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Integrated D3.js and GeoJson files to help visualize data</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Created map-based applications for GIS interns using MapBox, OpenStreetMap, and other APIs</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Automated data collection with a web-based application that uses and interacts with Google Excel’s API </p>
+                                <p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+                                Designed and implemented Jekyll to create simplified and dynamic web guides for new interns
+							</div>
+							<div style="clear: both;"></div>
+							<hr class="primary">
+							<div id="job">
+								<p class="alignleft"> <b>Web Developer  Intern</b> - Haberdashion, San Luis Obispo.</p>
+								<p class="alignright">Oct 2014 - March 2015.</p>
+								<p class="alignleft bulletpoints">
+								<span class="fa fa-circle"></span> 
+								Redesigned UI for a web app using Haberdashion’s API </p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Provided the front end HTML/CSS as well as PHP on top of mySQL with Vagrant VM</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Communicated with graphic designers to make decisions on design layouts and implementations</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Explored pros and cons of working in a small, tight-knit startup environment </p>
+							</div>
+							<div style="clear: both;"></div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><c class="fa fa-times"></c> Return</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" align="center">
+                            <!-- Project Details Go Here -->
+                            <h2 class="section-heading">Notable Classes</h2>
+                            <hr class="primary">
+                            <!--p class="item-intro text-muted">Previously, I've worked at Haberdashion, a small startup that allowed me to realized that startups isn't really for me. The lack of structure and organization drove me crazy. I left Haber with Web Developement knowledges that allowed me to work with my next employer, Cal Fire! At Cal fire, the most important thing I learned was how to talk to people. Talking to non-technical people and talking their concepts and developing challenged me to grow faster than ever.</p-->
+                            <div id="job">
+								<p class="alignleft"> <b>Full Stack Developer</b> - Cal Fire, Los Osos.</p>
+								<p class="alignright">March 2015- Present.</p>
+								<p class="alignleft bulletpoints">
+								<span class="fa fa-circle"></span> 
+								Implementing internal tools that dealt with GIS that are used in multiple fire stations</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Using and integrating D3.js to help visualize GeoJSON files</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Working with Leaflet, Mapbox, and other rest APIs to create map-based applications</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Working mainly on small web-based application using Python and Javascript </p>
+							<div style="clear: both;"></div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><c class="fa fa-times"></c> Return</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Portfolio Modal 1 -->
 	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -276,7 +313,61 @@
             </div>
         </div>
     </div>
-
+    
+    <!-- Portfolio Modal 1 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" align="center">
+                            <!-- Project Details Go Here -->
+                            <h2 class="section-heading">Previous Employment</h2>
+                            <hr class="primary">
+                            <!--p class="item-intro text-muted">Previously, I've worked at Haberdashion, a small startup that allowed me to realized that startups isn't really for me. The lack of structure and organization drove me crazy. I left Haber with Web Developement knowledges that allowed me to work with my next employer, Cal Fire! At Cal fire, the most important thing I learned was how to talk to people. Talking to non-technical people and talking their concepts and developing challenged me to grow faster than ever.</p-->
+                            <div id="job">
+								<p class="alignleft"> <b>Full Stack Developer</b> - Cal Fire, Los Osos.</p>
+								<p class="alignright">March 2015- Present.</p>
+								<p class="alignleft bulletpoints">
+								<span class="fa fa-circle"></span> 
+								Implementing internal tools that dealt with GIS that are used in multiple fire stations</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Using and integrating D3.js to help visualize GeoJSON files</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Working with Leaflet, Mapbox, and other rest APIs to create map-based applications</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Working mainly on small web-based application using Python and Javascript </p>
+							</div>
+							<div style="clear: both;"></div>
+							<hr class="primary">
+							<div id="job">
+								<p class="alignleft"> <b>Web Developer  Intern</b> - Haberdashion, San Luis Obispo.</p>
+								<p class="alignright">Oct 2014 - March 2015.</p>
+								<p class="alignleft bulletpoints">
+								<span class="fa fa-circle"></span> 
+								Implementing UI and functionality for a web app using Haberdashion’s API </p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Using Vagrant VM to provide the front end HTML/CSS in addition to PHP on top of mySQL</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								Communicating with graphic designers to make decisions on design layouts and implementations</p>
+								<p class="alignleft bulletpoints"> 
+								<span class="fa fa-circle"></span> 
+								WWorking in a small tight-knit startup environment </p>
+							</div>
+							<div style="clear: both;"></div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><c class="fa fa-times"></c> Return</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
