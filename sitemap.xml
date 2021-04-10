@@ -1,30 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://thsteven13.github.io/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thsteven13.github.io/about/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/posts/unemployment/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/tags/faith/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/posts/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/tags/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thsteven13.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/contact/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://thsteven13.github.io/tags/index/</loc>
   </url>
+  
 </urlset>
